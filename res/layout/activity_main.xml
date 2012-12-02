@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+            <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hombre" />
+            <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mujer" />
+    </LinearLayout>
+
+    
+
+<Spinner
+    android:id="@+id/spr_cigarros"
+    android:layout_width="match_parent"
+    android:layout_height="40dp" />
+
+<Spinner android:id="@+id/spr_peso"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+<Spinner android:id="@+id/spr_sexo_edad"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+<Spinner android:id="@+id/spr_colesterol"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+<Spinner android:id="@+id/spr_glucosa"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+<Spinner android:id="@+id/spr_parterial"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+<Spinner android:id="@+id/spr_act_dep"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+
+<Spinner android:id="@+id/spr_act_lab"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+
+<Spinner android:id="@+id/spr_herencia"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+<Button
+    android:id="@+id/btn_aceptar"
+    android:layout_width="154dp"
+    android:layout_height="wrap_content"
+    android:text="Evaluar" />
+
+</LinearLayout>
